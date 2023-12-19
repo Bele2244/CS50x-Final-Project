@@ -1,34 +1,14 @@
-# Byte-compiled / optimized / DLL files
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
-
-# Local development settings
 *.env
-
-# Database files
 *.sqlite3
-
-# Media files
 media/
-
-# Static files
 staticfiles/
-
-# Secret key file
 *.key
-
-# Compiled Python files
 *.pyc
-
-# Environment variables file
 .env
-
-# IDE files
-.idea/
 .vscode/
-
-# Dependency directories
 venv/
 env/
