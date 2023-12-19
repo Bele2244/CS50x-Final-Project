@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block pagetitle %}<h1>Countries</h1>{% endblock %}
+{% block content %}
+  <div class="container mx-auto mt-5">
+    <ul>
+      
+      {% for row in all_countries %}
+        <h2 class="mt-5" style="color: white;">{{ row.symbol }}</h2>
+        
+        {% for country in row.countries %}
+      
+          <li class="country-list-item mx-auto mt-2">
+            {{ country }}
+          </li>
+        
+        {% endfor %}
+      
+      {% endfor %}
+        
+    </ul>
+  </div>
+{% endblock %}

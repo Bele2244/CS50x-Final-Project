@@ -1,0 +1,123 @@
+body {
+    /* background: url('img/homepage-bg.jpg') center center/ cover no-repeat; */
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+
+    margin: 0;
+    padding: 0;
+
+}
+
+/* Size for brand */
+nav .navbar-brand
+{
+    font-size: xx-large;
+}
+
+.nav-item {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.country-list-item {
+    color: white;
+}
+
+
+/* #region All pages */
+
+h1 {
+    color:white;
+    margin-top: 0px;
+
+}
+
+img {
+    width: 100px;
+    height:100px
+} 
+
+hr {
+    width: 100%;
+    color:black;
+    border: 3px solid aliceblue;
+}
+
+p {
+    color: black; 
+    font-size: 1.1rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+}
+/* #endregion */
+
+/* #region Home Page */
+.main-container-home {
+    color: white;
+    width: 300px;
+    height: auto;
+}
+ 
+.input-convert {
+    display: none;
+} 
+
+.btn {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+#delete-button-2 {
+    display: none;    
+}
+
+.add-remove-btns {
+    display: flex;
+    flex-direction: column;
+    margin:5px;
+}
+
+.input-add {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#bottom-avatar {
+    width: 50px;
+    height: 50px;
+    border: solid 1px white;
+    border-radius: 40px;
+}
+
+#bottom-text-avatar {
+    color: white;
+}
+/* #endregion */
