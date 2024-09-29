@@ -52,6 +52,6 @@ And the pop message will appear at the top of the list indicating that the api c
 If 'Delete All' is clicked, all saved symbols are deleted from 
 the Django DB. 
 
-## Countries Page
+### Countries Page
 The 'Countries page' renders all your symbols as a list of countries that use that
 specific currency.
