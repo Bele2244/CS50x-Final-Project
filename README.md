@@ -7,23 +7,23 @@ The app uses Django DB model to save added currencies via a POST request.
 Added symbols are then saved permanently in the Django DB until deleted at the request of the 
 user.
 
-### Features
+## Features
 
-## Add button
+### Add button
 User can add new symbols by either typing currency symbol or by typing name of the country  
 input data is not case sensitive however all symbols are unique which means you can not add
 two countries who are using the same currency symbol, if either one of those symbols is  
 already added, the pop will appear to indicate that the symbol is already added for that 
 country.      
 
-## Delete button
+### Delete button
 when delete button is clicked js script is run and will append checkbox for every symbol  
 in the list and the list will turn red indicating all available symbols that can be deleted  
 user can then delete one or more symbols via POST request by clicking delete after desired  
 checkbox symbols are chosen.  
 after clicking delete chosen symbols are removed from django DB.
 
-## Convert button
+### Convert button
 When at least 2 symbols are added to the DB, the 'Convert' button will appear. If  
 clicked, it will provide two input fields: the amount of currency to convert  
 and a select list with symbols that are already added as options   
@@ -38,7 +38,7 @@ however since the api doesn't provide exchange data for all the currencies in th
 symbols can still get added but the exchange rates for that specific symbol are not provided
 and therefore can't convert that symbol.
 
-## Get Latest Rates button   
+### Get Latest Rates button   
 When the 'Get Latest Rates' button is clicked, the call_write_api function is called.
 Function calls then call the API. If the call is 
 successful, popup message will appear indicating that the api call was success.
@@ -48,7 +48,7 @@ if Api didn't provide exchange for certain symbol that symbol will have value of
 If the Api call fails, then the previous saved exchange rates are rendered on index page.
 And the pop message will appear at the top of the list indicating that the api call failed.
 
-## Delete All button
+### Delete All button
 If 'Delete All' is clicked, all saved symbols are deleted from 
 the Django DB. 
 
